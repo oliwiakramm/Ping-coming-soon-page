@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <img src="images/logo.svg" alt="ping." class="logo" />
+      </header>
+      <main class="main">
+        <div class="text__container">
+          <h1 class="primary__heading">We are launching <span>soon!</span></h1>
+          <p class="info">Subscribe and get notified</p>
+          <form class="form">
+            <div class="input__container">
+              <label for="email" class="visually-hidden"></label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Your email address..."
+              />
+              <p class="error__msg"></p>
+              <p class="valid__msg">
+                Thank you! You have successfuly subscribed
+              </p>
+            </div>
+            <button class="form__btn">Notify Me</button>
+          </form>
+        </div>
+        <img src="images/illustration-dashboard.png" alt="" />
+      </main>
+
+      <footer class="footer">
+        <ul class="icon__list">
+          <li class="icon__item">
+            <a href="#" class="icon__link" aria-label="Our Facebook page"
+              ><i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="icon__item">
+            <a href="#" class="icon__link" aria-label="Our Twitter account"
+              ><i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="icon__item">
+            <a href="#" class="icon__link" aria-label="Our Instagram account"
+              ><i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="copy">&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
