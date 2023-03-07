@@ -275,6 +275,7 @@ input[type="email"]::placeholder {
   cursor: pointer;
   transition: opacity 0.2s ease-in;
   letter-spacing: 0.5px;
+  box-shadow: 0 3px 8px 4px rgba(0, 0, 0, 0.15);
 }
 
 .form__btn:hover {
